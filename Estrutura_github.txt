@@ -1,0 +1,165 @@
+bi-ensino/
+│
+├── README.md
+├── CHANGELOG.md
+├── CONTRIBUTING.md
+├── LICENSE
+├── .gitignore
+├── .gitattributes
+│
+├── .github/
+│   ├── workflows/
+│   │   ├── ci.yml
+│   │   └── validate-powerbi.yml
+│   │
+│   ├── ISSUE_TEMPLATE/
+│   │   ├── bug_report.md
+│   │   ├── change_request.md
+│   │   └── new_requirement.md
+│   │
+│   └── pull_request_template.md
+│
+├── 01_iniciacao/
+│   ├── project_charter.md
+│   ├── business_case.md
+│   ├── stakeholders.md
+│   ├── scope.md
+│   ├── assumptions.md
+│   ├── constraints.md
+│   └── risks.md
+│
+├── 02_discovery/
+│   ├── entrevistas/
+│   │   ├── roteiro_entrevista.md
+│   │   └── atas/
+│   │
+│   ├── storytelling/
+│   │   ├── storytelling_inicial.md
+│   │   ├── storytelling_validado.md
+│   │   └── jornada_usuario.md
+│   │
+│   └── necessidades_negocio/
+│       ├── dores.md
+│       ├── oportunidades.md
+│       └── perguntas_negocio.md
+│
+├── 03_requisitos/
+│   ├── requisitos_negocio.md
+│   ├── requisitos_funcionais.md
+│   ├── requisitos_nao_funcionais.md
+│   ├── regras_negocio.md
+│   ├── criterios_aceite.md
+│   ├── matriz_rastreabilidade.xlsx
+│   └── backlog.md
+│
+├── 04_dados/
+│   ├── fontes/
+│   │   ├── catalogo_fontes.md
+│   │   └── sistemas_origem.md
+│   │
+│   ├── dicionario/
+│   │   ├── dicionario_dados.md
+│   │   └── glossario_negocio.md
+│   │
+│   ├── qualidade/
+│   │   ├── regras_qualidade.md
+│   │   ├── perfil_dados.md
+│   │   └── resultados_validacao.md
+│   │
+│   └── lineage/
+│       └── data_lineage.md
+│
+├── 05_modelagem/
+│   ├── modelo_conceitual/
+│   │   └── modelo_conceitual.drawio
+│   │
+│   ├── modelo_logico/
+│   │   └── modelo_logico.drawio
+│   │
+│   ├── modelo_dimensional/
+│   │   ├── modelo_dimensional.drawio
+│   │   └── star_schema.md
+│   │
+│   └── arquitetura/
+│       └── arquitetura_bi.drawio
+│
+├── 06_etl/
+│   ├── queries/
+│   │   ├── staging/
+│   │   ├── transformation/
+│   │   └── business/
+│   │
+│   ├── power_query/
+│   ├── sql/
+│   ├── notebooks/
+│   └── documentacao/
+│       └── processos_etl.md
+│
+├── 07_powerbi/
+│   ├── dev/
+│   │   └── BI_Ensino.pbip
+│   │
+│   ├── test/
+│   │   └── BI_Ensino.pbip
+│   │
+│   ├── prod/
+│   │   └── BI_Ensino.pbip
+│   │
+│   ├── export/
+│   │   └── BI_Ensino.pbix
+│   │
+│   └── assets/
+│       ├── logos/
+│       ├── icons/
+│       └── backgrounds/
+│
+├── 08_validacao/
+│   ├── plano_testes.md
+│   ├── casos_teste.md
+│   ├── resultados_testes.md
+│   ├── homologacao_usuario.md
+│   └── aceite_final.md
+│
+├── 09_deploy/
+│   ├── ambientes.md
+│   ├── estrategia_deploy.md
+│   ├── checklist_deploy.md
+│   ├── configuracao_dev.md
+│   ├── configuracao_test.md
+│   └── configuracao_prod.md
+│
+├── 10_operacao/
+│   ├── manual_usuario.md
+│   ├── manual_suporte.md
+│   ├── runbook.md
+│   ├── sla.md
+│   ├── monitoramento.md
+│   └── incidentes.md
+│
+├── 11_governanca/
+│   ├── governanca_dados.md
+│   ├── seguranca.md
+│   ├── acessos.md
+│   ├── rls.md
+│   ├── lgpd.md
+│   └── politica_retencao.md
+│
+├── 12_documentacao/
+│   ├── arquitetura.md
+│   ├── visao_solucao.md
+│   ├── indicadores.md
+│   ├── medidas_dax.md
+│   ├── navegacao_dashboard.md
+│   └── faq.md
+│
+├── 13_release/
+│   ├── v1.0.0/
+│   │   ├── release_notes.md
+│   │   ├── checklist.md
+│   │   └── evidencias/
+│   │
+│   └── v1.1.0/
+│
+└── 99_arquivo/
+    ├── obsoletos/
+    └── versoes_anteriores/

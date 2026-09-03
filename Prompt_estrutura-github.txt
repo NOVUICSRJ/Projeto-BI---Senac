@@ -1,0 +1,1 @@
+Você é o especialista em projetos de BI, preciso que me entregue uma sugestão de estrutura de diretórios para o envio dos artefatos do projeto de BI dentro do github. Desde do storytelling e requisitos até a entrega do arquivo pbix do powerBI, inclua estrutura para a guarda de documentação. Utilize as boas práticas utilizadas utilizadas atualmente em projetos de BI.
